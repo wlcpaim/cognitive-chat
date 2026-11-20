@@ -7,7 +7,15 @@
   <link rel="stylesheet" href="css/variables.css">
 </head>
 <body>
-  <main id="app"></main>
+  <main id="app">
+    <div id="chat-container">
+      <div id="messages"></div>
+      <form id="chat-form">
+        <input type="text" id="message-input" placeholder="Digite sua mensagem..." required>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </main>
   <script src="js/app.js" type="module"></script>
 </body>
 </html>
